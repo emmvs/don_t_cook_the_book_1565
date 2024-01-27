@@ -1,3 +1,8 @@
+require_relative "./cookbook"
+require_relative "./controller"
+require_relative "./router"
+require "pry-byebug"
+
 # Initialize the CSV file
 csv_file = File.join(__dir__, "recipes.csv")
 # Create cookbook w/ csv
